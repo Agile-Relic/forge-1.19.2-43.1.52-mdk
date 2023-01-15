@@ -1,6 +1,6 @@
-package net.agilerelic.idontknowyet;
+package net.agilerelic.idontknowyet.item;
 
-import net.minecraft.world.item.CreativeModeTab;
+import net.agilerelic.idontknowyet.idontknowyet;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,9 +12,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, idontknowyet.MOD_ID);
 
     public static final RegistryObject<Item> shiny = ITEMS.register("shiny",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Tutorial_Tab)));
     public static final RegistryObject<Item> raw_shiny = ITEMS.register("raw_shiny",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Tutorial_Tab)));
 
 
     public static void register(IEventBus eventBus) {

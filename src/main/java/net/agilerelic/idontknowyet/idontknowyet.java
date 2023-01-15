@@ -1,6 +1,7 @@
 package net.agilerelic.idontknowyet;
 
 import com.mojang.logging.LogUtils;
+import net.agilerelic.idontknowyet.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
